@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--stylesheet links below  -->
+
+    <link rel="stylesheet" href="/css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/images/Font Awesome/fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="stylesheet" href="/css/styles.css">
+
+    <!-- TITLE NAME-->
+    <title>UGAAMUX</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <!-- Navbar content -->
+            <!-- <div id="brand">
+                <img src="/images/Ugaamux.png" alt="Brand logo">
+            </div> -->
+            <div class="topnav">
+                <a id="nav_img" href="#"><img src="/images/Ugaamux.png" alt=""></a>
+
+                <!-- Navigation links (hidden by default) -->
+                <div id="myLinks">
+                    <a href="music.html">Music</a>
+                    <a href="artists.html">Artists</a>
+                    <a href="#">Sponsors</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Login/Sign Up</a>
+                </div>
+                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a>
+            </div>
+
+            <ul>
+                <li><a href="index.html"><img src="/images/Ugaamux.png" alt="Ugaamux Logo"></a></li>
+
+                <li><a href="music.html">Music</a></li>
+
+                <div class="dropdown">
+                  <button class="dropbtn">
+                    <a href="artists.html">Artists</a> <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="#">Musicians</a>
+                    <a href="#">Comedians</a>
+                    <a href="#">Documentary Creators</a>
+                  </div>
+                </div>
+
+                <li><a href="#">Sponsors</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Login/Sign Up</a></li>
+            </ul>
+        </nav>
+
+        <section class="landing_section">
+            <div id="welcome_words">
+              <h1>Welome to Ug<span class="span_landing_1">aa</span><span class="span_landing_2">mux</span></h1>
+              <p>Uganda's one stop website for music, art, and comedy archives</p>
+    
+              <ul>
+                <li><a href="music.html"><span>Music</span></a></li>
+                <li><a href="music.html"><span>Art</span></a></li>
+                <li><a href="music.html"><span>Comedy</span></a></li>
+                <li><a href="music.html"><span>Documentaries</span></a></li>
+              </ul>
+            </div>
+      
+              
+            <div id="video-container">
+              <div class="overlay"></div>
+              <video autoplay loop muted src="/videos/violin.mp4"></video>
+            </div>
+          </section>
+    </header>
+
+    <main>
+        <section class="artists">
+            <div id="artists_title">
+              <h2>Artists on Ug<span class="span_landing_1">aa</span><span class="span_landing_2">mux</span></h2>
+            </div>
+    
+            <div id="artists_container">
+              <h3 id="bigTitle"style="margin-left: 160px;">Musicians <span class="tab2"></span>Comedians <span class="tab3"></span>Dramatists</h3>
+    
+              <!-- Musicians Home page-->
+              <div id="column_1" class="musicians">
+                <h3 class="artist_h3">Musicians</h3>
+
+                <a href="#">
+                <div class="artist_1">
+                  <img src="/images/Kavali.jfif" alt="Kavali King's photograph">
+                  <div id="musicians_details">
+                    <p>Name:<span class="tab"></span> Kavali King</p>
+                  </div>
+                </div>
+                </a>
+    
+                <a href="#">
+                  <div class="artist_1">
+                    <img src="/images/Kavali.jfif" alt="Kavali King's photograph">
+                    <div id="musicians_details">
+                      <p>Name:<span class="tab"></span> Kavali King</p>
+                    </div>
+                  </div>
+                </a>
+    
+                <a href="#">
+                  <div class="artist_1">
+                    <img src="/images/Kavali.jfif" alt="Kavali King's photograph">
+                      <div id="musicians_details">
+                        <p>Name:<span class="tab"></span> Kavali King</p>
+                      </div>
+                    </div>
+                  </a>
+
+                  <button class="seeMore_button"><a href="#">See more >></a></button>
+              </div>
+            
+              <hr class="clearfix w-100 d-md-none">
+              <div id="divider"></div>
+    
+              <!-- Comedians Home page-->
+              <div id="column_2" class="comedians">
+                <h3 class="artist_h3">Comedians</h3>
+
+                <div class="artist_1">
+                  <img src="/images/Kavali.jfif" alt="Kavali King's photograph">
+                  <div id="musicians_details">
+                    <p>Name:<span class="tab"></span> Kavali King</p>
+                  </div>
+                </div>
+    
+                <div class="artist_1">
+                  <img src="/images/Kavali.jfif" alt="Kavali King's photograph">
+                  <div id="musicians_details">
+                    <p>Name:<span class="tab"></span> Kavali King</p>
+                  </div>
+                </div>
+    
+                <div class="artist_1">
+                  <img src="/images/Kavali.jfif" alt="Kavali King's photograph">
+                  <div id="musicians_details">
+                    <p>Name:<span class="tab"></span> Kavali King</p>
+                  </div>
+                </div>
+    
+                <button class="seeMore_button"><a href="#">See more >></a></button>
+              </div>
+    
+              <hr class="clearfix w-100 d-md-none">
+              <div id="divider1"></div>
+    
+              <!--Dramtists Home page-->
+              <div id="column_3"  class="dramatists">
+
+                <h3 class="artist_h3">Dramatists</h3>
+                <div class="artist_1">
+                  <img src="/images/Kavali.jfif" alt="Kavali King's photograph">
+                  <div id="musicians_details">
+                    <p>Name:<span class="tab"></span> Kavali King</p>
+                  </div>
+                </div>
+    
+                <div class="artist_1">
+                  <img src="/images/Kavali.jfif" alt="Kavali King's photograph">
+                  <div id="musicians_details">
+                    <p>Name:<span class="tab"></span> Kavali King</p>
+                  </div>
+                </div>
+    
+                <div class="artist_1">
+                  <img src="/images/Kavali.jfif" alt="Kavali King's photograph">
+                  <div id="musicians_details">
+                    <p>Name:<span class="tab"></span> Kavali King</p>
+                  </div>
+                </div>
+  
+                <button class="seeMore_button"><a href="#">See more >></a></button>
+              </div>
+            </div>
+          </section>
+    </main>
+
+    <!-- Footer -->
+<footer class="page-footer font-small stylish-color-dark pt-4">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-4 mx-auto">
+
+        <!-- Content -->
+        <h4 class="font-weight-bold text-uppercase mt-3 mb-4">About Us</h4>
+        <p id="about_p"><a href="#">Ug<span class="span_landing_1">aa</span><span class="span_landing_2">mux</span></a> is an online platform from the pearl of Africa that houses archives of national performing artists for easy accessibility and great enjoyment.</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
+
+        <!-- Links -->
+        <h4 class="font-weight-bold text-uppercase mt-3 mb-4">Our pages</h4>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="music.html">Music</a>
+          </li>
+          <li>
+            <a href="artists.html">Artists</a>
+          </li>
+          <li>
+            <a href="#!">Sponsors</a>
+          </li>
+          <li>
+            <a href="#!">About Us</a>
+          </li>
+        </ul>
+
+      </div>
+ 
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto" id="artists_div">
+
+        <!-- Links -->
+        <h4 class="font-weight-bold text-uppercase mt-3 mb-4">Artists On Our Page</h4>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Musicians</a>
+          </li>
+          <li>
+            <a href="#!">Comedians</a>
+          </li>
+          <li>
+            <a href="#!">Dramatists</a>
+          </li>
+          <li>
+            <a href="#!">Documentary Creators</a>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <hr>
+
+  <!-- Call to action -->
+  <ul class="list-unstyled list-inline text-center py-2">
+    <li class="list-inline-item">
+      <h5 class="mb-1">Be a part of Ug<span class="span_landing_1">aa</span><span class="span_landing_2">mux</span> today</h5>
+    </li>
+    <li class="list-inline-item">
+      <a id="button_footer" href="#!" class="btn btn-danger btn-rounded">Sign up!</a>
+    </li>
+  </ul>
+  <!-- Call to action -->
+
+  <hr>
+
+  <!-- Social buttons -->
+  <ul class="list-unstyled list-inline text-center">
+    <li class="list-inline-item">
+      <a href="#" class="btn-floating btn-fb mx-1">
+        <i class="fab fa-facebook-f"> </i>
+      </a>
+    </li>
+
+    <li class="list-inline-item">
+      <a href="#" class="btn-floating btn-tw mx-1">
+        <i class="fab fa-twitter"> </i>
+      </a>
+    </li>
+    
+    <li class="list-inline-item">
+      <a href="#" class="btn-floating btn-tw mx-1">
+        <i class="fab fa-instagram"> </i>
+      </a>
+    </li>
+
+    <li class="list-inline-item">
+      <a href="#" class="btn-floating btn-tw mx-1">
+        <i class="fas fa-envelope"> </i>
+      </a>
+    </li>
+  </ul>
+  <!-- Social buttons -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://mdbootstrap.com/"> Ugaamux.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+    
+    <script src="/scripts/scripts.js"></script>
+    <script src="/css/bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
