@@ -52,3 +52,8 @@ $(".album-postrr").on('click', function(e){
 
     // $("#aplayer").addClass('showPlayer');
 });
+
+$(".mood").on('click', function(e){
+    ap.play();
+    $("#aplayer").addClass('showPlayer');
+})

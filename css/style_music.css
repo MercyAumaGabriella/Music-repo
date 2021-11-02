@@ -25,6 +25,7 @@
 }
 
 .album-poster:hover{
+    cursor: pointer;
     box-shadow: none;
     transform: scale(0.98) translateY(5px);
 }
@@ -103,3 +104,30 @@ span{
 #pause{
     display: none;
 }
+
+.seeMore a{
+    text-decoration: none;
+    color: #000;
+}
+
+.seeMore a:hover{
+    color: #ff8a00;
+}
+
+#moodInitial{
+    margin-left: 0px;
+}
+
+.mood1{
+    width: 285px;
+    height: 300px;
+    margin-left: -80px;
+}
+
+.mood2{
+    width: 285px;
+    height: 300px;
+    margin-left: -80px;
+    margin-top: 80px;
+}
+
