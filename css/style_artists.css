@@ -321,3 +321,14 @@ main{
   .dramatists ol li a:hover, .doc_creators ol li a:hover{
     color: #ff8a00;
 }
+
+.dramatists h2, .doc_creators h2{
+  font-weight: bold;
+}
+
+/* Horizontal line */
+.inbetween{
+  width: 100%;
+  border: 2px solid #ff8a00;
+  margin: 20px;
+}

@@ -1,0 +1,210 @@
+main{
+    padding: 40px;
+    height: 200vh;
+}
+
+.circle-drama{
+    margin-left: 20%;
+    margin-top: 140px;
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    border: 2px solid #000;
+}
+
+.Innercircle{
+    position: absolute;
+    margin-left: 22.5%;
+    margin-top: -650px;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    border: 2px solid #000;
+}
+
+.ImgCircle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    border: 2px solid #000;
+
+    margin-top: -620px;
+    margin-left: 37%;
+}
+
+.box{
+    width: 450px;
+    height: 300px;
+    border-radius: 5%;
+    position: absolute;
+    border: 2px solid #000;
+
+    margin-top: -450px;
+    margin-left: 28%;
+
+}
+
+.drama1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 5%;
+    background: orange;
+
+    margin-top: -30%;
+    margin-left: 10%;
+}
+
+.drama2{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 5%;
+    background: orange;
+
+    margin-top: -51%;
+    margin-left: 17%;
+}
+
+.drama3{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 5%;
+    background: orange;
+
+    margin-top: -10%;
+    margin-left: 15%;
+}
+
+.drama4{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 5%;
+    background: orange;
+
+    margin-top: 2%;
+    margin-left: 40%;
+}
+
+.drama5{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 5%;
+    background: orange;
+
+    margin-top: -10%;
+    margin-left: 67%;
+}
+
+.drama6{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 5%;
+    background: orange;
+
+    margin-top: -30%;
+    margin-left: 72%;
+}
+
+.drama7{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 5%;
+    background: orange;
+
+    margin-top: -51%;
+    margin-left: 65%;
+}
+
+.drama8{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 5%;
+    background: orange;
+
+    margin-top: -61%;
+    margin-left: 40%;
+}
+
+
+@media only screen and (max-width: 700px){
+    main{
+        height: 140vh;
+    }
+
+    .circle-drama{
+        width: 350px;
+        height: 350px;
+    }
+
+    .Innercircle{
+        width: 300px;
+        height: 300px;
+
+        margin-top: -325px;
+        margin-left: 141px;
+    }
+
+    .ImgCircle{
+        width: 100px;
+        height: 100px;
+
+        margin-top: -300px;
+    }
+
+    .box{
+        width: 200px;
+        height: 150px;
+
+        margin-top: -220px;
+        margin-left: 29%;
+    }
+    .drama1{
+        margin-top: -30%;
+        margin-left: 0%;
+    }
+
+    .drama2{
+        margin-top: -56%;
+        margin-left: 5%;
+    }
+
+    .drama3{
+        margin-top: -5%;
+        margin-left: 10%;
+    }
+
+    .drama4{
+        margin-top: 2%;
+        margin-left: 39%;
+    }
+
+    .drama5{
+        margin-top: -5%;
+        margin-left: 67%;
+    }
+
+    .drama6{
+        margin-top: -30%;
+        margin-left: 73%;
+
+    }
+
+    .drama7{
+        margin-top: -56%;
+        margin-left: 68%;
+    }
+
+    .drama8{
+        margin-top: -70%;
+        margin-left: 38%;
+
+    }
+}
