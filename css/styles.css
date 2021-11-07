@@ -354,7 +354,7 @@ main{
   position: relative;
 }
 
-#musicians_details{
+.musicians_details{
   margin: -90px 0px 0px 40px;
   background-color: #ff8a00;
   border-radius: 5px;
@@ -364,7 +364,7 @@ main{
   font-size: 18px;
 }
 
-#musicians_details p{
+.musicians_details p{
   color: #000;
   padding-left: 110px;
 }
