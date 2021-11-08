@@ -1,6 +1,6 @@
 main{
     padding: 40px;
-    height: 270vh;
+    height: 200vh;
 }
 
 .sponsorImages{
@@ -67,7 +67,8 @@ main{
 }*/
 
  #sponsorDetails_1{
-    /* display: none; */
+    font-size: 16px;
+    display: none;
 
     background-color: rgb(216, 127, 216);
     width: 90%;
@@ -80,14 +81,174 @@ main{
 }
 
 #sponsorDetails_2{
-    position: absolute;
+    font-size: 16px;
+    position: relative;
     background-color: rgb(148, 83, 148);
-    width: 85%;
+    width: 91%;
     height: 500px;
     padding: 40px;
 
     margin-top: -60px;
     margin-left: 4.5%;
     border-radius: 15px;
-    /* display: none; */
+    display: none;
+}
+
+.reachUs{
+    background-color: #FFF5EE;
+    border: 1px solid #ff8a00;
+    width: 100%;
+    height: 500px;
+    border-radius: 15px;
+    padding-top: 20px;
+    
+    margin-top: 80px;
+
+}
+
+.verticalLine{
+    position: relative;
+    border: 1px solid #ff8a00;
+    height: 420px;
+    width: 0px;
+
+    margin-top: 20px;
+    margin-left: 400px;
+    /* border-style: ; */
+}
+
+.verticalLine_1{
+    position: relative;
+    border: 1px solid #ff8a00;
+    height: 420px;
+    width: 0px;
+
+    margin-top: -422px;
+    margin-left: 68%;
+    /* border-style: ; */
+}
+
+.haves{
+    position: absolute;
+    padding: 30px;
+}
+
+#check_1{
+    width: 40px;
+    height: 40px;
+
+    color: #000;
+}
+
+.haves p{
+    margin-left: 60px;
+    margin-top: -35px;
+    font-size: 18px;
+}
+
+.socials {
+    position: absolute;
+    padding: 30px;
+
+    margin-left:30%;
+    margin-top: -32.5%;
+}
+
+.socials i{
+    margin-left: 40px;
+    margin-right: 80px;
+    margin-bottom: 60px;
+} 
+
+.socials i:hover{
+    color: #ff8a00;
+    cursor: pointer;
+}
+
+.stats {
+    position: absolute;
+    padding: 30px;
+
+    margin-left:65%;
+    margin-top: -32.5%;
+}
+
+.stats_span{
+    font-size: 30px;
+    color: #c76a01;
+}
+
+.hr{
+    border: 2px solid #ff8a00;
+    display: none;
+    width: 80%;
+
+    position: absolute;
+
+}
+
+.hr1{
+    margin-top: 360px;
+    margin-left: 25px;
+}
+
+.hr2{
+    margin-top: 750px;
+    margin-left: 25px;
+}
+
+@media only screen and (max-width: 700px){
+    main{
+        height: 700vh;
+    }
+    .sponsorImages{
+        height: 400px;
+    }
+
+    #sponsorDetails_1, #sponsorDetails_2{
+        height: 700px;
+    }
+
+    .Image_1{
+        width: 200px;
+        height: 200px;
+        margin-left: 30px;
+    }
+
+    .Image_2{
+        width: 200px;
+        height: 200px;
+        margin-left: 360px;
+    }
+
+    .ampersand{
+        margin-left: 270px;
+        margin-top: 26%;
+    }
+
+    .verticalLine, .verticalLine_1{
+        display: none;
+    }
+
+    .reachUs{
+        height: 200vh;
+    }
+
+    .haves{
+        margin-left: 60px;
+    }
+
+    .socials{
+        margin-top: 400px;
+        margin-left: 50px;
+    }
+
+    .stats{
+        margin-top: 780px;
+        margin-left: 50px;
+    }
+
+    .hr{
+        display: block;
+    }
 }
